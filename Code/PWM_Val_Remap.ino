@@ -34,8 +34,6 @@ void setup()
   maxVal = map(maxValPercent, 0, 100, 0, 255);
 
   Serial.begin(9600);
-  Serial.println(minVal);
-  Serial.println(maxVal);
 }
 
 void loop()
@@ -68,8 +66,6 @@ void loop()
   //Serial.print(fanState);
   //Serial.print("  --  ");
   //Serial.println(fanOut);
-  Serial.println(minVal);
-  Serial.println(maxVal);
   delay(10);
   
 }
